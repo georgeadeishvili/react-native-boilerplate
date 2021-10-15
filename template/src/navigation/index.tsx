@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
-import { saveReference } from 'utils/navigation'
+import { saveReference } from '@utils/navigation'
 import BeforeAuth from './BeforeAuth'
 import { LightTheme, DarkTheme } from './theme'
 import { useColorScheme } from 'react-native'

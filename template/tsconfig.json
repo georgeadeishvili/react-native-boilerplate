@@ -9,7 +9,17 @@
 		"strict": true,
 		"moduleResolution": "node",
 		"baseUrl": "./src",
-		"paths": {"*": ["./*"]},
+		"paths": {
+			"@redux/*": ["./redux/*"],
+			"@navigation": ["./navigation"],
+			"@components": ["./components"],
+			"@hooks": ["./hooks"],
+			"@pages": ["./pages"],
+			"@utils/*": ["./utils/*"],
+			"@services": ["./services"],
+			"@interfaces/*": ["./interfaces/*"],
+			"@App": ["./App.tsx"]
+		},
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 		"skipLibCheck": true,

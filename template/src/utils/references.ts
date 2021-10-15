@@ -1,4 +1,4 @@
-import { References } from 'types/global'
+import { References } from '@interfaces/global'
 
 const references: References = {
 	navigator: null,

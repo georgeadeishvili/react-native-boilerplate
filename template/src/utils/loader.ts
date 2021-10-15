@@ -1,4 +1,4 @@
-import { Loader } from 'components'
+import { Loader } from '@components'
 import references from './references'
 
 /**

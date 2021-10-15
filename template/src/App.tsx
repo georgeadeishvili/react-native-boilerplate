@@ -1,9 +1,9 @@
 import React, { ReactNode } from 'react'
 import { StatusBar, useColorScheme } from 'react-native'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
-import Navigation from 'navigation'
-import { Loader } from 'components'
-import { saveLoaderRef } from 'utils/loader'
+import Navigation from '@navigation'
+import { Loader } from '@components'
+import { saveLoaderRef } from '@utils/loader'
 
 const App: () => ReactNode = () => {
 	const isDarkMode = useColorScheme() === 'dark'

@@ -1,4 +1,4 @@
-import { startLoading } from 'utils/loader'
+import { startLoading } from '@utils/loader'
 
 export const useContainer = () => {
 	const loader = () => {
